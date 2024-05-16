@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:duck-db.cjwea4q0q833.us-east-1.rds.amazonaws.com}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:duck-db}
+    url: jdbc:mysql://${MYSQL_HOST:duck-db.cjwea4q0q833.us-east-1.rds.amazonaws.com}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:korol_iot_14}
     username: ${MYSQL_USER:root}
-    password: ${MYSQL_PASSWORD:root}
+    password: ${MYSQL_PASSWORD:rootroot}
   jpa:
     #Show or not log for each sql query
     show-sql: true
